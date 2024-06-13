@@ -1,17 +1,13 @@
 body {
-
     font-family: Arial, sans-serif;
 
     margin: 0;
-
     padding: 0;
 
     background-color: #f0f0f0;
-
 }
 
 .footer {
-
     background-color: #235997;
 
     color: white;
@@ -19,11 +15,9 @@ body {
     text-align: center;
 
     padding: 20px 0;
-
 }
 
 .header {
-
     color: white;
 
     text-align: center;
@@ -33,13 +27,11 @@ body {
     padding: 40px 0;
 
     font-size: 25px;
-
 }
 
 
 
 .smoll-images {
-
     display: flex;
 
     justify-content: space-between;
@@ -47,43 +39,34 @@ body {
     align-items: center;
 
     padding: 10px 20px;
-
 }
 
 .smoll-images img {
-
     width: 100px;
 
     height: auto;
-
 }
 
 .buttons {
-
     display: flex;
 
     justify-content: center;
 
     margin: 20px 0;
-
 }
 
 .buttons a {
-
     display: inline-block;
 
     margin: 0 10px;
-
     padding: 10px 20px;
 
     background-color: #235997;
 
     color: white;
-
     text-decoration: none;
 
     border-radius: 5px;
-
 }
 
 .main-section {
