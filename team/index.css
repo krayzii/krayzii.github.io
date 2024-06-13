@@ -71,7 +71,7 @@ body {
 
 /* Test */
 .buttons:hover a:hover {
-    
+    background-color: #1d4c83;
 }
 
 .main-section {
