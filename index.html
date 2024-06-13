@@ -1,37 +1,239 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="stylesheet.css" rel="stylesheet">
     <title>Kaylie Craw</title>
+
     <style>
-        h1, li, .ppage, .mainp, .date, p {
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f0f0f0;
+
+        }
+
+        .footer {
+
+            background-color: #5156b8;
+
+            color: white;
+
             text-align: center;
+
+            padding: 20px 0;
+
         }
-        .ppage {
-            margin-bottom: 15px;
+
+        .header {
+
+            color: white;
+
+            text-align: center;
+
+            background-color: #5156b8;
+
+            padding: 40px 0;
+
+            font-size: 25px;
+
         }
-        h1 {
-        margin-bottom: 10px;
-    }
-    .date {
-        margin-bottom: 15px;
-    }
-    .ppage {
-        margin-bottom: 20px;
-    }
+
+
+
+        .smoll-images {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 10px 20px;
+
+        }
+
+        .smoll-images img {
+
+            width: 100px;
+
+            height: auto;
+
+        }
+
+        .buttons {
+
+            display: flex;
+
+            justify-content: center;
+
+            margin: 20px 0;
+
+        }
+
+        .buttons a {
+
+            display: inline-block;
+
+            margin: 0 10px;
+
+            padding: 10px 20px;
+
+            background-color: #5156b8;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+        }
+
+        .main-section {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 60vh;
+
+            background-image: url('background-image.jpg');
+            /* Replace with your background image */
+
+            background-size: cover;
+
+            background-position: center;
+
+            position: relative;
+
+        }
+
+        .card {
+
+            background-color: rgba(255, 255, 255, 0.8);
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            position: relative;
+
+            z-index: 1;
+
+            text-align: center;
+
+        }
+
+        .background-image {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 0;
+
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg');
+            /*Van Goghs here lol*/
+
+            background-size: cover;
+
+            background-position: center;
+
+        }
+
+        .music-player {
+
+            width: 100%;
+
+            max-width: 300px;
+
+            margin: 0 auto;
+
+        }
     </style>
+
+</head>
+
 <body>
-<!--Same progress/index-->
-   <h1>Coding Camp</h1>
-   <div class="date">June 10-14</div>
-   <div class="mainp"><a href="index.html">Main Page</a></div>
-   <div class="ppage"><a href="progress.html">Progress Page</a></div>
-<!--Index-->
-    <li>Kaylie C.</li>
-    <li>I don't know what I'm doing :)</li>
+
+    <div class="header">
+
+        Summer Coding Class
+
+    </div>
+
+
+
+    <div class="smoll-images">
+
+        <img src="smoll-image1.jpg" alt="Smoll Image 1"> <!-- Flower or smth idk -->
+
+        <div class="buttons">
+
+            <a href="index.html">Main</a>
+
+            <a href="progress.html">Progress</a>
+
+            <a href="">Collab</a>
+
+        </div>
+
+        <img src="smoll-image2.jpg" alt="Smoll Image 2"> <!-- Same As Image 1 -->
+
+    </div>
+
+
+
+    <div class="main-section">
+
+        <div class="background-image"></div>
+
+        <div class="card">
+
+            <h2>Music Player</h2>
+
+            <div class="music-player">
+
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/4NVjbIHYDT8?si=fblqF9Sswb2Vm6p6"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+
+        [words go here]
+
+    </div>
+
 </body>
 
 </html>
