@@ -1,37 +1,253 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="stylesheet.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Kaylie Craw</title>
+
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f0f0f0;
+
+        }
+
+        .footer {
+
+            background-color: #235997;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px 0;
+
+        }
+
+        .header {
+
+            color: white;
+
+            text-align: center;
+
+            background-color: #235997;
+
+            padding: 40px 0;
+
+            font-size: 25px;
+
+        }
+
+
+
+        .smoll-images {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 10px 20px;
+
+        }
+
+        .smoll-images img {
+
+            width: 100px;
+
+            height: auto;
+
+        }
+
+        .buttons {
+
+            display: flex;
+
+            justify-content: center;
+
+            margin: 20px 0;
+
+        }
+
+        .buttons a {
+
+            display: inline-block;
+
+            margin: 0 10px;
+
+            padding: 10px 20px;
+
+            background-color: #235997;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+        }
+
+        .main-section {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 60vh;
+
+            background-image: url('background-image.jpg');
+            /* Replace with your background image */
+
+            background-size: cover;
+
+            background-position: center;
+
+            position: relative;
+
+        }
+
+        .card {
+
+            background-color: rgba(255, 255, 255, 0.8);
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            position: relative;
+
+            z-index: 1;
+
+            text-align: center;
+
+        }
+
+        .background-image {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 0;
+
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?20121101035929');
+            /*Van Goghs here lol*/
+
+            background-size: cover;
+
+            background-position: center;
+
+        }
+
+        .music-player {
+
+            width: 100%;
+
+            max-width: 300px;
+
+            margin: 0 auto;
+
+        }
+    </style>
+
 </head>
-<!--Styling here-->
-<style>
-    h1, h2, .mainp, .ppage, p, .date {
-        text-align: center;
-    }
-    h1 {
-        margin-bottom: 10px;
-    }
-    .date {
-        margin-bottom: 20px;
-    }
-</style>
-<!--Design here-->
+
 <body>
-<!--Same progress/index-->
-    <h1>Coding Camp</h1>
-    <div class="date">June 10-14</div>
-    <div class="mainp"><a href="index.html">Main Page</a></div>
-    <div class="ppage"><a href="progress.html">Progress Page</a></div>
-<!--Progress-->
-    <h2>Day 1</h2>
-    <p>I am at <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-17">here</a></p>
-    <h2>Day 2</h2>
-    <p>I am at <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-64">here</a></p>
-    <h2>Day 3</h2>
-    <p>I am at <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-40">here</a></p>
+
+    <div class="header">
+
+        Summer Coding Class
+
+    </div>
+
+
+
+    <div class="smoll-images">
+
+        <img src="https://images.vexels.com/content/234309/preview/sunflower-black-and-white-line-art-c18f34.png"
+            alt="Smoll Image 1"> <!-- Flower or smth idk -->
+
+        <div class="buttons">
+
+            <a href="index.html">Main</a>
+
+            <a href="progress.html">Progress</a>
+
+            <a href="">Collab</a>
+
+        </div>
+
+        <img src="https://images.vexels.com/content/234309/preview/sunflower-black-and-white-line-art-c18f34.png"
+            alt="Smoll Image 2"> <!-- Same As Image 1 -->
+
+    </div>
+
+
+
+    <div class="main-section">
+
+        <div class="background-image"></div>
+
+        <div class="card">
+
+            <h2>Progress</h2>
+
+            <div class=“days-progress">
+
+                <p>freeCodeCamp Progress</p>
+
+                <li><a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-17">Day
+                        1</a></li>
+
+                <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-64">Day
+                        2</a></li>
+
+                <li><a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-40">Day
+                        3</a></li>
+
+                <li><a href="">Day 4</a></li>
+
+                <li><a href="">Day 5</a></li>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+
+        &copy Kaylie C.
+
+    </div>
+
 </body>
+
 </html>
