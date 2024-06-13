@@ -26,9 +26,9 @@
 
         <div class="buttons">
 
-            <a href="index.html">Main</a>
+            <a href="javascript:(function()%7BgoToMain()%7D)()%3B">Main</a>
 
-            <a href="">Placeholder</a>
+            <a href="javascript:(function()%7BgoToProgress()%7D)()%3B">Placeholder</a>
 
             <a href="">Placeholder2</a>
 
@@ -40,7 +40,7 @@
 
 
 
-    <div class="main-section">
+    <div class="main-section" id="0">
 
         <div class="background-image"></div>
 
@@ -61,6 +61,38 @@
 
     </div>
 
+    <div class="main-section" id="1">
+
+        <div class="background-image"></div>
+
+        <div class="card">
+
+            <h2>Progress</h2>
+
+            <div class=“days-progress">
+
+                <p>freeCodeCamp Progress</p>
+
+                <li><a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-17">Day
+                        1</a></li>
+
+                <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-64">Day
+                        2</a></li>
+
+                <li><a
+                        href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-40">Day
+                        3</a></li>
+
+                <li><a href="team/index.html">Day 4</a></li>
+
+                <li><a href="">Day 5</a></li>
+
+            </div>
+
+        </div>
+
+    </div>
 
 
     <div class="footer">
@@ -68,6 +100,10 @@
         &copy Kaylie C. Nathan R.
 
     </div>
+
+    <script>
+        document.getElementById("1").style.display = "none";
+    </script>
 
 </body>
 
