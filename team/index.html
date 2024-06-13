@@ -1,13 +1,236 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./index.js"></script>
-    <link rel="stylesheet" href="./index.css">
-    <title>Main Page</title>
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Kaylie Craw</title>
+
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f0f0f0;
+
+        }
+
+        .footer {
+
+            background-color: #235997;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px 0;
+
+        }
+
+        .header {
+
+            color: white;
+
+            text-align: center;
+
+            background-color: #235997;
+
+            padding: 40px 0;
+
+            font-size: 25px;
+
+        }
+
+
+
+        .smoll-images {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 10px 20px;
+
+        }
+
+        .smoll-images img {
+
+            width: 100px;
+
+            height: auto;
+
+        }
+
+        .buttons {
+
+            display: flex;
+
+            justify-content: center;
+
+            margin: 20px 0;
+
+        }
+
+        .buttons a {
+
+            display: inline-block;
+
+            margin: 0 10px;
+
+            padding: 10px 20px;
+
+            background-color: #235997;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+        }
+
+        .main-section {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 60vh;
+
+            background-size: cover;
+
+            background-position: center;
+
+            position: relative;
+
+        }
+
+        .card {
+
+            background-color: rgba(255, 255, 255, 0.8);
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            position: relative;
+
+            z-index: 1;
+
+            text-align: center;
+
+        }
+
+        .background-image {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 0;
+
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?20121101035929');
+            /*Van Goghs here lol*/
+
+            background-size: cover;
+
+            background-position: center;
+
+        }
+
+        .music-player {
+
+            width: 100%;
+
+            max-width: 300px;
+
+            margin: 0 auto;
+
+        }
+    </style>
+
 </head>
+
 <body>
-    
+
+    <div class="header">
+
+        Summer Coding Class
+
+    </div>
+
+
+
+    <div class="smoll-images">
+
+        <img src="https://images.vexels.com/content/234309/preview/sunflower-black-and-white-line-art-c18f34.png" alt="Smoll Image 1"> <!-- Flower or smth idk -->
+
+        <div class="buttons">
+
+            <a href="index.html">Main</a>
+
+            <a href="progress.html">Progress</a>
+
+            <a href="">Collab</a>
+
+        </div>
+
+        <img src="https://images.vexels.com/content/234309/preview/sunflower-black-and-white-line-art-c18f34.png" alt="Smoll Image 2"> <!-- Same As Image 1 -->
+
+    </div>
+
+
+
+    <div class="main-section">
+
+        <div class="background-image"></div>
+
+        <div class="card">
+
+            <h2>Music Player</h2>
+
+            <div class="music-player">
+
+                <iframe width="300" height="169" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=WrtHbkFttU9EXze5"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+
+        &copy Kaylie C.
+
+    </div>
+
 </body>
+
 </html>
