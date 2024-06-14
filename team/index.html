@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&amp;display=swap" rel="stylesheet">
 
-    <title>Team Main Page</title>
+    <title>D&D Classes Summary</title>
 </head>
 
 <body>
@@ -30,9 +30,9 @@
 
         <div class="buttons">
 
-            <a href="javascript:(function()%7BgoToMain()%7D)()%3B">Main</a>
+            <a href="javascript:(function()%7BgoToMain()%7D)()%3B">Dice</a>
 
-            <a href="javascript:(function()%7BgoToProgress()%7D)()%3B">Placeholder</a>
+            <a href="javascript:(function()%7BgoToProgress()%7D)()%3B">Stats</a>
 
             <a href="javascript:(function()%7BgoToTeam()%7D)()%3B">Team</a>
 
@@ -51,14 +51,19 @@
 
         <div class="card">
 
-            <h2>Music Player</h2>
+            <div class=“dice">
 
-            <div class="music-player">
+                <h2>Dice</h2>
 
-                <iframe width="300" height="169" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=WrtHbkFttU9EXze5"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>lorem ipsum words and brief sentence thing here</p>
+
+                <li>D6</li>
+
+                <li>D8</li>
+
+                <li>D10</li>
+
+                <li>D12</li>
 
             </div>
 
@@ -70,26 +75,31 @@
 
         <div class="background-image"></div>
 
-        <div class="card">
+        <div style="overflow:hidden; overflow-y:scroll; height: 70%;" class="card">
 
-            <h2>Progress</h2>
+            <h2>Stats</h2>
 
-            <div class=“days-progress">
+            <div class=“main-stats">
 
-                <p>freeCodeCamp Progress</p>
+                <p>lorem ipsum words and brief sentence thing here</p>
 
-                <li><a href="">Day
-                        1</a></li>
+                <li>STR</li>
+                <p>Strength</p>
 
-                <li><a href="">Day
-                        2</a></li>
+                <li>DEX</li>
+                <p>Dexterity</p>
 
-                <li><a href="">Day
-                        3</a></li>
+                <li>CON</li>
+                <p>Constitution</p>
 
-                <li><a href="">Day 4</a></li>
+                <li>WIS</li>
+                <p>Wisdom</p>
 
-                <li><a href="">Day 5</a></li>
+                <li>INT</li>
+                <p>Intelligence</p>
+                
+                <li>CHA</li>
+                <p>Charisma</p>
 
             </div>
 
@@ -140,12 +150,16 @@
             }
 
             @keyframes textshimmer {
-                from {
+                0% {
                     color: rgba(0, 0, 0, 1);
                 }
 
-                to {
-                    color: rgba(155, 155, 155, 0.75);
+                50% {
+                    color: rgba(155, 155, 155, 1);
+                }
+
+                100% {
+                    color: rgba(0, 0, 0, 1);
                 }
             }
 
@@ -159,6 +173,7 @@
                 animation-duration: 5s;
                 animation-iteration-count: infinite;
             }
+
         </style>
         </head>
 
@@ -175,10 +190,10 @@
             <div class="break"></div>
 
             <div class="card">
-                <img width="200px" height="200px" src="https://placehold.co/200" alt="Avatar" style="width:100%">
+                <img height="200px" src="data:image/webp;base64,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" alt="Avatar" style="width:100%">
                 <div class="container">
                     <h4><a class="link" href="https://github.com/Booogyboooo2"><b>Nathan</b></a></h4>
-                    <p>Team member 2</p>
+                    <p id="nathan_desc">&lt;PlaceHolder&gt;</p>
                 </div>
             </div>
     </div>
