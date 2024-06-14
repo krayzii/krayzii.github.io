@@ -49,21 +49,25 @@
 
         <div class="background-image"></div>
 
-        <div class="card">
+        <div style="overflow:hidden; overflow-y:scroll; height: 70%;" class="card">
 
             <div class=“dice">
 
-                <h2>Dice</h2>
-
-                <p>lorem ipsum words and brief sentence thing here</p>
-
+                <h2>D&D Dice</h2>
+                <p>There are six main dice used in the D&D system, each with the corresponding number of sides as their name. This includes the D4, D6, D8, D10, D12, and D20. Most of your dice rolls revolve around the D20, but some, like damage rolls and hit dice, use others.</p>
+                <p>A classes hit die is the type you will use when rolling to recover or gain Hp. The higher the hit die, the tankier the class.</p>
+                <p>.</p>
                 <li>D6</li>
+                <p>Hit dice for the Wizard and Sorcerer classes</p>
 
                 <li>D8</li>
+                <p>Hit dice for the Bard, Cleric, Monk, Druid, Rogue, and Warlock classes</p>
 
                 <li>D10</li>
+                <p>Hit dice for the Ranger, Fighter, and Paladin classes</p>
 
                 <li>D12</li>
+                <p>Hit dice for Barbarian class</p>
 
             </div>
 
@@ -77,11 +81,13 @@
 
         <div style="overflow:hidden; overflow-y:scroll; height: 70%;" class="card">
 
-            <h2>Stats</h2>
+            <h2>Ability Scores</h2>
 
             <div class=“main-stats">
 
-                <p>Stats explained by classes and tomatoes</p>
+                <p>The Ability Scores in D&D are the main stats you choose or roll for your character at the beginning of the game. These will help determine how strong or weak is your character's ability in this particular field.</p>
+                <p>D&D Ability Scores explained by classes and tomatoes:</p>
+                <p>.</p>
 
                 <li>STR</li>
                 <p>Strength is the ability to crush the tomato</p>
@@ -183,6 +189,24 @@
             .goose {
                 width: 300;
             }
+            
+            @keyframes fade {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+            }
+            
+            #nathan_desc {
+                animation-name: fade;
+                animation-duration: 6s;
+                animation-iteration-count: infinite;
+            }
 
         </style>
         </head>
@@ -222,6 +246,8 @@
     <script>
         document.getElementById("1").style.display = "none";
         document.getElementById("2").style.display = "none";
+
+        run()
     </script>
 
 </body>
