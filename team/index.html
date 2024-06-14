@@ -84,8 +84,7 @@
                 <li><a href="">Day
                         2</a></li>
 
-                <li><a
-                        href="">Day
+                <li><a href="">Day
                         3</a></li>
 
                 <li><a href="">Day 4</a></li>
@@ -104,100 +103,101 @@
 
         <div class="background-image"></div>
 
-            <style>
-                .card {
-                  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                  transition: 0.3s;
-                  width: 40%;
-                  border-radius: 5px;
+        <style>
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                transition: 0.3s;
+                width: 40%;
+                border-radius: 5px;
+            }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .card2 {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                transition: 0.3s;
+                width: 40%;
+                border-radius: 5px;
+                display: flex;
+            }
+
+            .card2:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            img {
+                border-radius: 5px 5px 0 0;
+            }
+
+            .container {
+                padding: 2px 16px;
+            }
+
+            .break {
+                padding: 2.5%;
+            }
+
+            @keyframes textshimmer {
+                from {
+                    color: rgba(0, 0, 0, 1);
                 }
 
-                .card:hover {
-                  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                to {
+                    color: rgba(155, 155, 155, 0.75);
                 }
+            }
 
-                .card2 {
-                  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-                  transition: 0.3s;
-                  width: 40%;
-                  border-radius: 5px;
-                  display: flex;
-                }
+            .link {
+                color: rgba(0, 0, 0, 1);
+                font-family: "Madimi One", sans-serif;
+                font-weight: 400;
+                text-decoration: none;
+                background-size: auto;
+                animation-name: textshimmer;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+        </style>
+        </head>
 
-                .card2:hover {
-                  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-                }
-                
-                img {
-                  border-radius: 5px 5px 0 0;
-                }
-                
-                .container {
-                  padding: 2px 16px;
-                }
+        <body>
 
-                .break {
-                    padding: 2.5%;
-                }
-
-                @keyframes textshimmer {
-                    from{
-                        color: rgba(0,0,0,1);
-                    }
-                    to {
-                        color: rgba(155, 155, 155, 0.75);
-                    }
-                }
-
-                .link {
-                    color: rgba(0,0,0,1);
-                    font-family: "Madimi One", sans-serif;
-                    font-weight: 400;
-                    text-decoration: none;
-                    background-size: auto;
-                    animation-name: textshimmer;
-                    animation-duration: 5s;
-                    animation-iteration-count: infinite;
-                }
-
-                </style>
-                </head>
-                <body>
-                
-                <div class="card">
-                  <img width="200px" height="200px" src="https://placehold.co/200" alt="Avatar" style="width:100%">
-                  <div class="container">
-                    <h4><a class="link" href="https://github.com/"><b>Kaylie</b></a></h4> 
-                    <p>Team member 1</p> 
-                  </div>
-                </div>
-
-                <div class="break"></div>
-
-                <div class="card">
-                    <img width="200px" height="200px" src="https://placehold.co/200" alt="Avatar" style="width:100%">
-                    <div class="container">
-                      <h4><a class="link" href="https://github.com/Booogyboooo2"><b>Nathan</b></a></h4> 
-                      <p>Team member 2</p> 
-                    </div>
+            <div class="card">
+                <img width="200px" height="200px" src="https://placehold.co/200" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><a class="link" href="https://github.com/"><b>Kaylie</b></a></h4>
+                    <p>Team member 1</p>
                 </div>
             </div>
 
-        </div>
+            <div class="break"></div>
+
+            <div class="card">
+                <img width="200px" height="200px" src="https://placehold.co/200" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><a class="link" href="https://github.com/Booogyboooo2"><b>Nathan</b></a></h4>
+                    <p>Team member 2</p>
+                </div>
+            </div>
+    </div>
+
+    </div>
 
     </div>
 
 
     <div class=" footer">
 
-                        &copy Kaylie C. Nathan R.
+        &copy Kaylie C. Nathan R.
 
-            </div>
+    </div>
 
-            <script>
-                document.getElementById("1").style.display = "none";
-                document.getElementById("2").style.display = "none";
-            </script>
+    <script>
+        document.getElementById("1").style.display = "none";
+        document.getElementById("2").style.display = "none";
+    </script>
 
 </body>
 
