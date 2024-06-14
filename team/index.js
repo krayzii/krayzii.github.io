@@ -33,5 +33,5 @@ function updateText(id, list) {
 var bio_list = ["I like coding stupid things...", "Goose", "Javascript > Html", "MySQL is annoying", "Coding enthusiast", "Eclipse IDE is fun", "JS, Java are fun!", "CSS sucks"];
 
 function run() {
-    setInterval(updateText, 3000, "nathan_desc" , bio_list);
+    setInterval(updateText, 6000, "nathan_desc" , bio_list);
 }

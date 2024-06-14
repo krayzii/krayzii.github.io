@@ -27,9 +27,13 @@ body {
     padding: 40px 0;
 
     font-size: 25px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 
 .smoll-images {
     display: flex;
